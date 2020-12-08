@@ -16,7 +16,7 @@ For this project, the following preset was used:
 - Unit test (Jest)
 
 ## Architecture
----
+
 The following diagrams show the proposed architecture for the components and the Vuex store:
 
 ![Components](https://user-images.githubusercontent.com/7889190/101422016-6abe2300-38d4-11eb-9f9e-ad23ceb97df2.png)
