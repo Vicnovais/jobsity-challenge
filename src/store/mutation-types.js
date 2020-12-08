@@ -1,0 +1,7 @@
+export const NAV_MONTH = 'NAV_MONTH'
+export const CREATE_EVENT = 'CREATE_EVENT'
+export const EDIT_EVENT = 'EDIT_EVENT'
+export const REMOVE_EVENT = 'REMOVE_EVENT'
+export const REMOVE_ALL_EVENT = 'REMOVE_ALL_EVENT'
+export const OPEN_MODAL = 'OPEN_MODAL'
+export const CLOSE_MODAL = 'CLOSE_MODAL'
