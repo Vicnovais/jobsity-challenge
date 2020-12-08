@@ -35,6 +35,8 @@ The following diagrams show the proposed architecture for the components and the
 
 **6. WeatherForect:** component responsible to fetch the weather forecast for the selected date/time and city
 
+**7. EventChip:** component responsible to show the reminder info inside a date
+
 #### Weather Forecast API
 
 To fetch the forecast for the selected date/time and city, it was used the free tier of [Open Weather Map 5-day/3-hour Forecast](https://openweathermap.org/forecast5)
