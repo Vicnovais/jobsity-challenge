@@ -117,6 +117,11 @@ To execute this project in dev mode, just run the following command inside the p
 npm run serve
 ```
 
+After the dev build is complete, you can access the app on your browser using the following link
+```
+http://localhost:8080
+```
+
 ### Compile for production
 To compile this project in production mode, just run the following command inside the project folder:
 ```
