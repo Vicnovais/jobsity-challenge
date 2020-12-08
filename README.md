@@ -19,6 +19,8 @@ For this project, the following preset was used:
 
 The following diagrams show the proposed architecture for the components and the Vuex store:
 
+![Components](https://user-images.githubusercontent.com/7889190/101422016-6abe2300-38d4-11eb-9f9e-ad23ceb97df2.png)
+
 #### Components
 
 **1. Calendar:** main component that contains every sub-component to make the calendar
@@ -48,7 +50,7 @@ To fetch the forecast for the selected date/time and city, it was used the free 
 
 #### Store
 
-
+![Store](https://user-images.githubusercontent.com/7889190/101422019-6abe2300-38d4-11eb-8dba-af7e5c30be27.png)
 
 **1. Actions**
 - NAV_NEXT_MONTH: responsible for next month navigation
@@ -69,9 +71,9 @@ To fetch the forecast for the selected date/time and city, it was used the free 
 - OPEN_MODAL: mutate the app's form modal state (opening)
 - CLOSE_MODAL: mutate the app's form modal state (closing)
 
-The following image shows how the app's components relate to the store's actions:
+The following diagram shows how the app's components relate to the store's actions:
 
-
+![ActionFlow](https://user-images.githubusercontent.com/7889190/101422012-68f45f80-38d4-11eb-9704-830e4b7087ce.png)
 
 
 ### Homologated Environments
