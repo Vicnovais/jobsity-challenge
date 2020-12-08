@@ -4,8 +4,8 @@
 
 This challenge's goal is to develop a calendar web app that supports reminders. All the mandatory and optional requirements were met.
 
-### Preset
----
+## Preset
+
 For this project, the following preset was used:
 - Vue
 - Babel
@@ -15,13 +15,13 @@ For this project, the following preset was used:
 - Linter + Formatter
 - Unit test (Jest)
 
-### Architecture
+## Architecture
 ---
 The following diagrams show the proposed architecture for the components and the Vuex store:
 
 ![Components](https://user-images.githubusercontent.com/7889190/101422016-6abe2300-38d4-11eb-9f9e-ad23ceb97df2.png)
 
-#### Components
+### Components
 
 **1. Calendar:** main component that contains every sub-component to make the calendar
 
@@ -37,7 +37,7 @@ The following diagrams show the proposed architecture for the components and the
 
 **7. EventChip:** component responsible to show the reminder info inside a date
 
-#### Weather Forecast API
+### Weather Forecast API
 
 To fetch the forecast for the selected date/time and city, it was used the free tier of [Open Weather Map 5-day/3-hour Forecast](https://openweathermap.org/forecast5)
 
@@ -50,7 +50,7 @@ To fetch the forecast for the selected date/time and city, it was used the free 
 * The API key is already configured in the file src/weather.forecast.api.js
 
 
-#### Store
+### Store
 
 ![Store](https://user-images.githubusercontent.com/7889190/101422454-7d852780-38d5-11eb-93c5-a499a2f06b5c.png)
 
@@ -78,8 +78,8 @@ The following diagram shows how the app's components relate to the store's actio
 ![ActionFlow](https://user-images.githubusercontent.com/7889190/101422012-68f45f80-38d4-11eb-9704-830e4b7087ce.png)
 
 
-### Homologated Environments
----
+## Homologated Environments
+
 This project was tested and homologated in the following environments:
 
 1. macOS Catalina + Google Chrome 87.0.4280.88
@@ -87,8 +87,8 @@ This project was tested and homologated in the following environments:
 3. Windows 10 + Google Chrome 73.0.3683.75
 
 
-### Requirements
----
+## Requirements
+
 **1. Mandatory**
 
 * :white_check_mark: Ability to add a new "reminder" (max 30 chars) for a user entered day and time. Also, include a city.
