@@ -86,6 +86,7 @@ This project was tested and homologated in the following environments:
 2. macOS Catalina + Safari 13.0.3
 3. Windows 10 + Google Chrome 73.0.3683.75
 
+
 ### Requirements
 ---
 **1. Mandatory**
@@ -102,6 +103,7 @@ This project was tested and homologated in the following environments:
 * :white_check_mark: Expand the calendar to support more than the current month.
 * :white_check_mark: Properly handle overflow when multiple reminders appear on the same date.
 * :white_check_mark: Functionality to delete one or ALL the reminders for a specific day
+
 
 ## Installing
 To install the project, just download this repo locally and run the following command inside the project folder:
