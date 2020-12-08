@@ -5,7 +5,7 @@
 This challenge's goal is to develop a calendar web app that supports reminders. All the mandatory and optional requirements were met.
 
 ### Preset
-
+---
 For this project, the following preset was used:
 - Vue
 - Babel
@@ -16,7 +16,7 @@ For this project, the following preset was used:
 - Unit test (Jest)
 
 ### Architecture
-
+---
 The following diagrams show the proposed architecture for the components and the Vuex store:
 
 ![Components](https://user-images.githubusercontent.com/7889190/101422016-6abe2300-38d4-11eb-9f9e-ad23ceb97df2.png)
@@ -45,14 +45,14 @@ To fetch the forecast for the selected date/time and city, it was used the free 
 
 * This free tier does not support historical data. That means if the user select a past date, a friendly message will be shown to inform the user about this limitation.
 * The forecast for today date has limited availability until 00:00 GMT. That means if the user select a date/time past this time (converted to the user timezone), a friendly message will be shown to inform the user about this limitation.
-* This free tier supports forecast only 5-day forecast. That means if the user selects a date past this threshold, a friendly message will be shown to inform the user about this limitation.
+* This free tier supports only 5-day forecast. That means if the user selects a date past this threshold, a friendly message will be shown to inform the user about this limitation.
 * A client-cache system was implemented to limit the calls to the external API. The configured keep-alive time is 60 minutes.
 * The API key is already configured in the file src/weather.forecast.api.js
 
 
 #### Store
 
-![Store](https://user-images.githubusercontent.com/7889190/101422019-6abe2300-38d4-11eb-8dba-af7e5c30be27.png)
+![Store](https://user-images.githubusercontent.com/7889190/101422454-7d852780-38d5-11eb-93c5-a499a2f06b5c.png)
 
 **1. Actions**
 - NAV_NEXT_MONTH: responsible for next month navigation
@@ -60,7 +60,7 @@ To fetch the forecast for the selected date/time and city, it was used the free 
 - ADD_EVENT: responsible for adding a new reminder to the calendar
 - UPDATE_EVENT: responsible for editing an existing reminder
 - DELETE_EVENT: responsible for removing a reminder
-- DELETE_ALL_EVENT: responsible for removing all reminders from a certain date
+- DELETE_ALL_EVENT: responsible for removing all reminders of a certain date
 - OPEN_FORM_MODAL: responsible for opening the reminder form modal
 - CLOSE_FORM_MODAL: responsible for closing the reminder form modal
 
@@ -79,7 +79,7 @@ The following diagram shows how the app's components relate to the store's actio
 
 
 ### Homologated Environments
-
+---
 This project was tested and homologated in the following environments:
 
 1. macOS Catalina + Google Chrome 87.0.4280.88
@@ -87,7 +87,7 @@ This project was tested and homologated in the following environments:
 3. Windows 10 + Google Chrome 73.0.3683.75
 
 ### Requirements
-
+---
 **1. Mandatory**
 
 * :white_check_mark: Ability to add a new "reminder" (max 30 chars) for a user entered day and time. Also, include a city.
